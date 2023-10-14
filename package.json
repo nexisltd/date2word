@@ -1,0 +1,34 @@
+{
+  "name": "@nexisltd/date2word",
+  "version": "1.0.0",
+  "description": "This package takes any date as argument and convert it to word.",
+  "private": "false",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
+  },
+  "keywords": [
+    "date-translator",
+    "date2word"
+  ],
+  "author": "Istiak Hassan Emon",
+  "license": "MIT",
+  "dependencies": {
+    "number-to-words": "^1.2.4"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/node": "^20.8.6",
+    "@types/number-to-words": "^1.2.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
