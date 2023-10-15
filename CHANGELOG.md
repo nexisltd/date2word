@@ -1,5 +1,11 @@
 # @nexisltd/date2word
 
+## 1.0.4
+
+### Patch Changes
+
+- 332d501: typescript optimized
+
 ## 1.0.3
 
 ### Patch Changes
