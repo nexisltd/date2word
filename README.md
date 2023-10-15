@@ -7,11 +7,11 @@ A versatile JavaScript library for converting Date objects into human-readable, 
 To install the `date2word` library, you can use npm or yarn or pnpm:
 
 ```bash
-npm install date2word
+npm install @nexisltd/date2word
 # or
-yarn add date2word
+yarn add @nexisltd/date2word
 # or
-pnpm install date2word
+pnpm install @nexisltd/date2word
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Here's how you can use the library in your JavaScript or TypeScript code:
 import dateConverter from 'date2word';
 
 const myDate = new Date();
-const formattedDate = dateConverter(myDate);
+const formattedDate = dateConverter(myDate,{});
 
 console.log(formattedDate);
 ```
