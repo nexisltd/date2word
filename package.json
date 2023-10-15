@@ -1,6 +1,6 @@
 {
   "name": "@nexisltd/date2word",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This package takes any date as argument and convert it to word.",
   "private": false,
   "main": "dist/index.js",
