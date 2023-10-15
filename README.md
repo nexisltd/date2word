@@ -19,7 +19,7 @@ pnpm install @nexisltd/date2word
 Here's how you can use the library in your JavaScript or TypeScript code:
 
 ```javascript
-import dateConverter from 'date2word';
+import dateConverter from '@nexisltd/date2word';
 
 const myDate = new Date();
 const formattedDate = dateConverter(myDate,{});
@@ -39,7 +39,7 @@ The `dateConverter` function takes a Date object and provides a variety of forma
 ## Example
 
 ```javascript
-import dateConverter from 'date2word';
+import dateConverter from '@nexisltd/date2word';
 
 const myDate = new Date('2023-10-15');
 const formattedDate = dateConverter(myDate, {
