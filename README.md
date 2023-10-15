@@ -1,5 +1,14 @@
 # Date Converter
 
+[![Build](https://github.com/nexisltd/date2word/actions/workflows/publish.yml/badge.svg)](https://github.com/nexisltd/date2word/actions/workflows/publish.yml)
+[![Test](https://github.com/nexisltd/date2word/actions/workflows/test.yml/badge.svg)](https://github.com/nexisltd/date2word/actions/workflows/test.yml)
+[![NPM Version](https://img.shields.io/npm/v/@nexisltd/date2word.svg)](https://www.npmjs.com/package/@nexisltd/date2word)
+[![Github Repo Size](https://img.shields.io/github/repo-size/nexisltd/date2word.svg)](https://github.com/nexisltd/date2word)
+[![LICENSE](https://img.shields.io/npm/l/npm-badger.svg)](https://github.com/nexisltd/date2word/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/nexisltd/date2word.svg)](https://github.com/nexisltd/date2word/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/nexisltd/date2word.svg)](https://github.com/nexisltd/date2word/commits/main)
+[![jsDeliver](https://data.jsdelivr.com/v1/package/npm/@nexisltd/date2word/badge)](https://www.jsdelivr.com/package/npm/@nexisltd/date2word)
+
 A versatile JavaScript library for converting Date objects into human-readable, beautifully formatted date strings. Easily integrate it into your projects and applications to display dates in a more user-friendly way.
 
 ## Installation
