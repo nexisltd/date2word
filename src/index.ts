@@ -47,7 +47,7 @@ const dateConverter = (
             );
         }
     };
-    const a = dateObject.getMonth()
+    const a = dateObject.getMonth();
     const month = monthNames[dateObject.getMonth()]?.toLowerCase();
     const date = toWordsOrdinal(dateObject.getDate());
     const year = yearToString(dateObject.getFullYear());
@@ -63,6 +63,6 @@ const dateConverter = (
     for (const key of dateParts) {
         fullDate = fullDate + capitalizeFirstLetter(key) + " ";
     }
-    return fullDate;
+    return fullDate.trimEnd();
 };
 export default dateConverter;
