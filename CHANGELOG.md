@@ -1,5 +1,11 @@
 # @nexisltd/date2word
 
+## 1.0.5
+
+### Patch Changes
+
+- eff21e3: README.md updated
+
 ## 1.0.4
 
 ### Patch Changes
