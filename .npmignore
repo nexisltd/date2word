@@ -10,3 +10,4 @@ renovate.json
 tsconfig.json
 .nvmrc
 .npmrc
+.gitignore
