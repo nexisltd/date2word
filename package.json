@@ -20,7 +20,7 @@
     "date2word",
     "date-to-word"
   ],
-  "author": "Istiak Hassan Emon",
+  "author": "Team Nexis",
   "license": "MIT",
   "dependencies": {
     "number-to-words": "^1.2.4"
@@ -32,5 +32,19 @@
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexisltd/date2word.git"
+  },
+  "homepage": "https://github.com/nexisltd/date2word#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/nexisltd/date2word/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
