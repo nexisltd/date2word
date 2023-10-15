@@ -1,5 +1,11 @@
 # @nexisltd/date2word
 
+## 1.0.8
+
+### Patch Changes
+
+- f0544b2: md
+
 ## 1.0.7
 
 ### Patch Changes
