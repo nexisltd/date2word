@@ -3,7 +3,6 @@
 .git
 src
 index.test.ts
-LICENSE
 pnpm-lock.yaml
 README.md
 renovate.json
