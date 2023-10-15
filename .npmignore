@@ -11,3 +11,4 @@ tsconfig.json
 .nvmrc
 .npmrc
 .gitignore
+CHANGELOG.md

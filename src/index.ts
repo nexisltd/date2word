@@ -47,7 +47,8 @@ const dateConverter = (
             );
         }
     };
-    const month = monthNames[dateObject?.getMonth()].toLowerCase();
+    const a = dateObject.getMonth()
+    const month = monthNames[dateObject.getMonth()]?.toLowerCase();
     const date = toWordsOrdinal(dateObject.getDate());
     const year = yearToString(dateObject.getFullYear());
     let translatedDate = `${date} ${month}, ${year}`;
