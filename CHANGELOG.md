@@ -1,5 +1,11 @@
 # @nexisltd/date2word
 
+## 1.0.9
+
+### Patch Changes
+
+- ddd3113: test name updated
+
 ## 1.0.8
 
 ### Patch Changes
