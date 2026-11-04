@@ -7,7 +7,7 @@ settings:
 dependencies:
   number-to-words:
     specifier: ^1.2.4
-    version: 1.2.4
+    version: 1.2.5
 
 devDependencies:
   '@changesets/cli':
@@ -1558,8 +1558,8 @@ packages:
     hasBin: true
     dev: true
 
-  /number-to-words@1.2.4:
-    resolution: {integrity: sha512-/fYevVkXRcyBiZDg6yzZbm0RuaD6i0qRfn8yr+6D0KgBMOndFPxuW10qCHpzs50nN8qKuv78k8MuotZhcVX6Pw==}
+  /number-to-words@1.2.5:
+    resolution: {integrity: sha512-AuqAoOgs43P+bw2gccDCcFyu5FIHn6ArbrAFEwP+QjYcV6WvceWr0B0UAjiSIH9MNshephlmWqsKqwUjfs4OLQ==}
     dev: false
 
   /object-assign@4.1.1:
